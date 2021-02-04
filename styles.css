@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #fff;
+}
+
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    background: #f2f2f2;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+    width: 272px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #222;
+  }
+
+a:hover {
+    text-decoration: underline;
+}
