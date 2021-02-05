@@ -45,6 +45,20 @@ body, input, button {
     justify-content: center;
 }
 
+.search-button {
+    margin: 20px 5px ;
+    padding:  10px 16px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+}
+
+.search-button:hover {
+    cursor: pointer;
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
 .logo {
     height: 92px;
     aspect-ratio: auto 272 / 92;
