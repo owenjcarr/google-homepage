@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -19,12 +20,14 @@ body, input, button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px;
+    height: 60px;
 }
 
-.dot {
-    display: inline;
+.tright {
+    display: flex;
+    align-items: center;
 }
+
 .dots {
     height: 24px;
     width: auto;
@@ -51,6 +54,9 @@ body, input, button {
     color: #70757a;
 }
 
+.top a {
+    padding: 0px 15px;
+}
 a:link, a:visited {
     text-decoration: none;
     color: #222;
@@ -155,4 +161,17 @@ a:hover {
     aspect-ratio: auto 272 / 92;
     width: 272px;
 }
+
+.sign-in {
+    background: #1a73e8;
+    border: 1px solid transparent;
+    margin-left: 20px;
+    margin-right: 10px;
+    min-width: 96px;
+    height: 36px;
+    border-radius: 4px;
+    color: #fff;
+
+}
+
 
